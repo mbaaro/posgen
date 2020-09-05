@@ -90,7 +90,6 @@ public class Employees extends javax.swing.JFrame {
         jLabel5.setText("Second Name");
 
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/add_1.png"))); // NOI18N
         jButton2.setText("Add employee");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -109,7 +108,6 @@ public class Employees extends javax.swing.JFrame {
         jTextField1.setEditable(false);
 
         btn_clear.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        btn_clear.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/erase.gif"))); // NOI18N
         btn_clear.setText("Clear");
         btn_clear.setToolTipText("");
         btn_clear.addActionListener(new java.awt.event.ActionListener() {
@@ -231,7 +229,6 @@ public class Employees extends javax.swing.JFrame {
         jScrollPane1.setViewportView(jTable1);
 
         jButton3.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/delete16.gif"))); // NOI18N
         jButton3.setText("Delete Employee");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -240,7 +237,6 @@ public class Employees extends javax.swing.JFrame {
         });
 
         jButton4.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/editgif.gif"))); // NOI18N
         jButton4.setText("Update Employee");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

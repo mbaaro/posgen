@@ -145,9 +145,6 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="11" style="1"/>
             </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/images/Users.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Employees"/>
           </Properties>
           <Events>
@@ -159,9 +156,6 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="11" style="1"/>
             </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/images/reports.PNG"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Reports"/>
           </Properties>
           <Events>
@@ -172,9 +166,6 @@
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="11" style="1"/>
-            </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/images/consumables.PNG"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Products"/>
           </Properties>
@@ -198,9 +189,6 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="11" style="1"/>
             </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\ben\Documents\NetBeansProjects\fastfoodpos\src\images\creditors.PNG"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="creditors"/>
           </Properties>
           <Events>
@@ -211,9 +199,6 @@
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="11" style="1"/>
-            </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\ben\Documents\NetBeansProjects\fastfoodpos\src\images\deptors.PNG"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Depts"/>
           </Properties>
@@ -226,9 +211,6 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="11" style="1"/>
             </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\ben\Documents\NetBeansProjects\fastfoodpos\src\images\refund.PNG"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Refunds"/>
           </Properties>
           <Events>
@@ -239,9 +221,6 @@
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="11" style="1"/>
-            </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\ben\Documents\NetBeansProjects\fastfoodpos\src\images\cashbook.PNG"/>
             </Property>
             <Property name="text" type="java.lang.String" value="update cashbook"/>
           </Properties>
@@ -254,9 +233,6 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="11" style="1"/>
             </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\ben\Documents\NetBeansProjects\fastfoodpos\src\images\Stack_of_dollars.gif"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="cashier"/>
           </Properties>
           <Events>
@@ -267,9 +243,6 @@
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="12" style="1"/>
-            </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\ben\Documents\NetBeansProjects\fastfoodpos\src\images\empty.PNG"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Low Stock"/>
           </Properties>
@@ -294,9 +267,6 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="11" style="1"/>
             </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\ben\Documents\NetBeansProjects\fastfoodpos\src\images\supplier.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Suppliers"/>
           </Properties>
           <Events>
@@ -307,9 +277,6 @@
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="12" style="1"/>
-            </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\ben\Documents\NetBeansProjects\fastfoodpos\src\images\orders.PNG"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Orders"/>
           </Properties>

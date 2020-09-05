@@ -74,7 +74,6 @@ public class Admininterface extends javax.swing.JFrame {
         setTitle("Administrator");
 
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Users.png"))); // NOI18N
         jButton1.setText("Employees");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -83,7 +82,6 @@ public class Admininterface extends javax.swing.JFrame {
         });
 
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/reports.PNG"))); // NOI18N
         jButton2.setText("Reports");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -92,7 +90,6 @@ public class Admininterface extends javax.swing.JFrame {
         });
 
         jButton4.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/consumables.PNG"))); // NOI18N
         jButton4.setText("Products");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -109,7 +106,6 @@ public class Admininterface extends javax.swing.JFrame {
         });
 
         jButton7.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jButton7.setIcon(new javax.swing.ImageIcon("C:\\Users\\ben\\Documents\\NetBeansProjects\\fastfoodpos\\src\\images\\creditors.PNG")); // NOI18N
         jButton7.setText("creditors");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -118,7 +114,6 @@ public class Admininterface extends javax.swing.JFrame {
         });
 
         jButton8.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jButton8.setIcon(new javax.swing.ImageIcon("C:\\Users\\ben\\Documents\\NetBeansProjects\\fastfoodpos\\src\\images\\deptors.PNG")); // NOI18N
         jButton8.setText("Depts");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -127,7 +122,6 @@ public class Admininterface extends javax.swing.JFrame {
         });
 
         jButton9.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jButton9.setIcon(new javax.swing.ImageIcon("C:\\Users\\ben\\Documents\\NetBeansProjects\\fastfoodpos\\src\\images\\refund.PNG")); // NOI18N
         jButton9.setText("Refunds");
         jButton9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -136,7 +130,6 @@ public class Admininterface extends javax.swing.JFrame {
         });
 
         jButton10.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jButton10.setIcon(new javax.swing.ImageIcon("C:\\Users\\ben\\Documents\\NetBeansProjects\\fastfoodpos\\src\\images\\cashbook.PNG")); // NOI18N
         jButton10.setText("update cashbook");
         jButton10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -145,7 +138,6 @@ public class Admininterface extends javax.swing.JFrame {
         });
 
         jButton12.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jButton12.setIcon(new javax.swing.ImageIcon("C:\\Users\\ben\\Documents\\NetBeansProjects\\fastfoodpos\\src\\images\\Stack_of_dollars.gif")); // NOI18N
         jButton12.setText("cashier");
         jButton12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -154,7 +146,6 @@ public class Admininterface extends javax.swing.JFrame {
         });
 
         btn_lowstock.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        btn_lowstock.setIcon(new javax.swing.ImageIcon("C:\\Users\\ben\\Documents\\NetBeansProjects\\fastfoodpos\\src\\images\\empty.PNG")); // NOI18N
         btn_lowstock.setText("Low Stock");
         btn_lowstock.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -167,7 +158,6 @@ public class Admininterface extends javax.swing.JFrame {
         jSeparator3.setOrientation(javax.swing.SwingConstants.VERTICAL);
 
         btn_suppliers.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        btn_suppliers.setIcon(new javax.swing.ImageIcon("C:\\Users\\ben\\Documents\\NetBeansProjects\\fastfoodpos\\src\\images\\supplier.png")); // NOI18N
         btn_suppliers.setText("Suppliers");
         btn_suppliers.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -176,7 +166,6 @@ public class Admininterface extends javax.swing.JFrame {
         });
 
         jButton3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jButton3.setIcon(new javax.swing.ImageIcon("C:\\Users\\ben\\Documents\\NetBeansProjects\\fastfoodpos\\src\\images\\orders.PNG")); // NOI18N
         jButton3.setText("Orders");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

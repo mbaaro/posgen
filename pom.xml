@@ -10,7 +10,7 @@
         <maven.compiler.source>12</maven.compiler.source>
         <maven.compiler.target>12</maven.compiler.target>
     </properties>
-     <repositories>
+    <repositories>
     <repository>
                       <id>org-jdesktop-layout</id>
                       <name>org-jdesktop-layout</name>
@@ -21,18 +21,18 @@
                       <name>jasperreport</name>
                       <url>https://repo1.maven.org/maven2/</url>
                    </repository>
-    </repositories> 
-    <dependencies>
+    </repositories>  
+ <dependencies>
         <dependency>
    <groupId>mysql</groupId>
    <artifactId>mysql-connector-java</artifactId>
-   <version>5.1.36</version> 
+   <version>5.1.36</version>
   <!-- <version>8.0.18</version> -->
-</dependency>
+ </dependency>
                         <dependency>
                         <groupId>com.github.lgooddatepicker</groupId>
                         <artifactId>LGoodDatePicker</artifactId>
                          <version>10.3.1</version>
                         </dependency>
-    </dependencies>
+    </dependencies>  
 </project>
