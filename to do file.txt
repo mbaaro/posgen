@@ -1,0 +1,16 @@
+manage permission groups
+employees--> hide password field
+		lock / unlock account
+
+products---> link to receive /issue stock
+Reports--->select reports from db
+	--->redesign reports
+	---->
+
+new form--> make sale
+Receive stock(add stock locations)
+issue stock
+stock transfer(from one location to another eg warehouse to shop)
+email setup
+printer setup
+config file setup
