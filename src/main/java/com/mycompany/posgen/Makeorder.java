@@ -55,8 +55,8 @@ ResultSetMetaData rsmd,rsmd1=null;
 int i,j,counter=0;
 String[] order1;
 String name,mail="",phone="";
-final String username = "benstepsolutions";
-final String password = "benstepsolutions#";
+final String username = "";
+final String password = "";
     public Makeorder() {
         
         initComponents();

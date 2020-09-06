@@ -18,7 +18,7 @@ import java.net.*;*/
  */
 public class connect {
     public static Connection connectdb(){
-           /*  try {
+            try {
           
           Class.forName("com.mysql.jdbc.Driver");
           Connection con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/genpos","root","");
@@ -43,6 +43,5 @@ public class connect {
           }
  
    return null;    
-   } */
- //to remove this          
-return null;}}
+   } 
+}}
