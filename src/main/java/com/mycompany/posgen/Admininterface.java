@@ -69,6 +69,7 @@ public class Admininterface extends javax.swing.JFrame {
         jSeparator3 = new javax.swing.JSeparator();
         btn_suppliers = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
+        btn_adjuststocks = new javax.swing.JButton();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
@@ -177,6 +178,14 @@ public class Admininterface extends javax.swing.JFrame {
             }
         });
 
+        btn_adjuststocks.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btn_adjuststocks.setText("Stocks Adjustments");
+        btn_adjuststocks.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_adjuststocksActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -184,9 +193,10 @@ public class Admininterface extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 171, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, 171, Short.MAX_VALUE)
                     .addComponent(jButton4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jButton1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btn_adjuststocks, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(35, 35, 35)
                 .addComponent(jSeparator3, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -232,7 +242,9 @@ public class Admininterface extends javax.swing.JFrame {
                                         .addGap(18, 18, 18)
                                         .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(36, 36, 36)
-                                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(40, 40, 40)
+                                        .addComponent(btn_adjuststocks, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(jPanel1Layout.createSequentialGroup()
                                         .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(48, 48, 48)
@@ -389,6 +401,12 @@ catch(Exception ex){
          show.setVisible(rootPaneCheckingEnabled);
     }//GEN-LAST:event_btn_lowstockActionPerformed
 
+    private void btn_adjuststocksActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_adjuststocksActionPerformed
+        // TODO add your handling code here:
+        StockAdjstments show=new StockAdjstments();
+        show.setVisible(rootPaneCheckingEnabled);
+    }//GEN-LAST:event_btn_adjuststocksActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -426,6 +444,7 @@ catch(Exception ex){
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btn_adjuststocks;
     private javax.swing.JButton btn_lowstock;
     private javax.swing.JButton btn_suppliers;
     private javax.swing.JButton jButton1;

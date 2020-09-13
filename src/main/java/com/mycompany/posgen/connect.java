@@ -17,11 +17,12 @@ import java.net.*;*/
  * @author ben
  */
 public class connect {
+    public static Connection con=null;
     public static Connection connectdb(){
             try {
           
           Class.forName("com.mysql.jdbc.Driver");
-          Connection con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/genpos","root","");
+        con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/genpos","root","");
 //JOptionPane.showMessageDialog(null,"Connected to the database successfully");
  return con;
       } catch (Exception e) {
@@ -31,7 +32,7 @@ public class connect {
           String address=ipaddress.getHostAddress();
           Class.forName("com.mysql.jdbc.Driver");
           
-          Connection con=DriverManager.getConnection("jdbc:mysql://"+address+":3306/fastfoodpos","root","");
+         con=DriverManager.getConnection("jdbc:mysql://"+address+":3306/fastfoodpos","root","");
 //JOptionPane.showMessageDialog(null,"Connected to the database successfully");
  return con;
           }
